@@ -1,7 +1,7 @@
 {
-  "name": "spacebook",
+  "name": "geauxspacebook-docs",
   "version": "1.0.0",
-  "description": "A simple site generator based on Eleventy, Tailwind 2.0, and Alpine.js",
+  "description": "Spacebook Docs are great for hosting my 11ty tutorials!",
   "scripts": {
     "start": "eleventy --serve & postcss styles/tailwind.css --o _tmp/style.css --watch",
     "build": "ELEVENTY_PRODUCTION=true eleventy && NODE_ENV=production postcss styles/tailwind.css --o _site/style.css &&  ./node_modules/.bin/cleancss -o _site/style.css _site/style.css",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/broeker/spacebook.git"
+    "url": "git+https://github.com/geauxweisbeck4/geauxspacebook-docs.git"
   },
-  "author": "Tim Broeker <broeker@gmail.com> (https://www.electriccitizen.com/)",
+  "author": "Andrew Weisbeck <andrew.weisbeck@gmail.com> (https://GeauxWeisbeck4.dev)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/broeker/spacebook/issues"
+    "url": "https://github.com/GeauxWeisbeck4/geauxspacebook-docs/issues"
   },
-  "homepage": "https://github.com/broeker/spacebook",
+  "homepage": "https://geaux11ty.dev",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
     "alpinejs": "^2.7.3",
